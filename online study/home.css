@@ -1,0 +1,93 @@
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: "green";
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{background-repeat: no-repeat;
+     background-size: cover;
+}
+ul {height:60px;
+  list-style-type: none;
+  margin: 0;
+  padding-left:200px;
+  padding-right:90px;
+    padding-bottom:0px;
+    padding-top:5px; 
+    padding-bottom:none;
+    padding-top:none;
+  overflow: hidden;
+  background-color:#FFFFFF;
+}
+
+.dd{width:cover;
+    height:40px;
+ list-style-type:none;
+  margin: 0;
+  padding-right:"3px";
+  padding-bottom:"4px"; 
+  overflow: hidden;
+  background-color:#F35D52;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+   
+  padding: 13px 14px ;
+  text-decoration: none;
+  font-family:  "comic sans ms" ;
+}
+a.gg{color:#ffffff;
+}
+
+li a:hover:not(.active) {
+   color:#88F771;   
+}
+
+a.active{
+color:red;
+         }
+.rr{float:right;
+}
